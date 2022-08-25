@@ -1,0 +1,10 @@
+Script started on 2022-08-25 04:40:25+00:00
+]0;vagrant@localhost:~[vagrant@localhost ~]$ exit[2Psudo mount 192.168.56.110:/var/nfs_krb5 /mnt/nfs_krb5/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Psudo mkdir /mnt/nfs_krb5[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cshowmount -e 192.168.56.110[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo yum install -y nfs-utils[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Phowmount -e 192.168.56.110
+Export list for 192.168.56.110:
+/var/nfs_krb5 *
+]0;vagrant@localhost:~[vagrant@localhost ~]$ showmount -e 192.168.56.110[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[2Psudo mount 192.168.56.110:/var/nfs_krb5 /mnt/nfs_krb5/
+mount.nfs: Operation not permitted
+]0;vagrant@localhost:~[vagrant@localhost ~]$ exit
+exit
+
+Script done on 2022-08-25 04:40:44+00:00
